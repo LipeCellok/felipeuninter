@@ -126,6 +126,13 @@ nav a:hover {
     transform: scale(1.1); /* Adiciona um efeito de escala ao passar o mouse sobre as miniaturas */
 }
 
+/* Regras de mídia para ajustar o tamanho das imagens em telas menores */
+@media screen and (max-width: 600px) {
+    #certificados a {
+        flex: 0 1 calc(100% - 20px); /* Em telas menores, faz as imagens ocuparem a largura total da tela */
+    }
+}
+
 /* Seção "Portfólio" */
 
 #portfolio {
@@ -144,6 +151,13 @@ nav a:hover {
 #portfolio p {
     color: #555555; /* cinza escuro */
     margin-bottom: 1em; /* Adiciona um espaçamento inferior entre os parágrafos */
+}
+
+/* Regras de mídia para ajustar o tamanho dos vídeos em telas menores */
+@media screen and (max-width: 600px) {
+    #portfolio iframe {
+        width: 100%; /* Define a largura do vídeo para ocupar toda a largura da tela em telas menores */
+    }
 }
 
 /* Rodapé */
