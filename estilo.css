@@ -126,6 +126,26 @@ nav a:hover {
     transform: scale(1.1); /* Adiciona um efeito de escala ao passar o mouse sobre as miniaturas */
 }
 
+/* Seção "Portfólio" */
+
+#portfolio {
+    text-align: center;
+    margin: 2em;
+    background-color: #ffffff; /* branco */
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio h2 {
+    color: #3498db; /* azul */
+}
+
+#portfolio p {
+    color: #555555; /* cinza escuro */
+    margin-bottom: 1em; /* Adiciona um espaçamento inferior entre os parágrafos */
+}
+
 /* Rodapé */
 
 footer {
