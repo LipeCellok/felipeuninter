@@ -160,6 +160,60 @@ nav a:hover {
     }
 }
 
+/* Seção "Contato" */
+
+#contato {
+    text-align: center;
+    margin: 2em;
+    background-color: #ffffff; /* branco */
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contato h2 {
+    color: #3498db; /* azul */
+}
+
+#contato p {
+    color: #555555; /* cinza escuro */
+    margin-bottom: 1em; /* Adiciona um espaçamento inferior entre os parágrafos */
+}
+
+/* Formulário de Contato */
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contato label {
+    margin-bottom: 0.5em;
+    color: #3498db; /* azul */
+}
+
+#contato input,
+#contato textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+#contato input[type="submit"] {
+    background-color: #3498db; /* azul claro */
+    color: #ffffff; /* branco */
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contato input[type="submit"]:hover {
+    background-color: #2980b9; /* azul mais escuro */
+}
+
 /* Rodapé */
 
 footer {
