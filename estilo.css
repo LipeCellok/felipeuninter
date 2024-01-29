@@ -14,21 +14,21 @@ body {
 /* Cabeçalho (Header) */
 
 header {
-    background-color: #3498db; /* azul claro */
-    color: #ffffff; /* branco */
+    background-color: #3498db; 
+    color: #ffffff; 
     text-align: center;
     padding: 1em;
     width: 100%;
 }
 
 header h1 {
-    margin: 0; /* Remover margem padrão do h1 */
+    margin: 0; 
 }
 
 /* Barra de Navegação */
 
 nav {
-    background-color: #ecf0f1; /* azul claro */
+    background-color: #ecf0f1;
     padding: 1em;
     display: flex;
     justify-content: flex-start;
@@ -48,7 +48,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #3498db; /* azul */
+    color: #3498db; /
     font-weight: bold;
     padding: 0.5em 1em;
     border-radius: 8px;
@@ -57,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #2980b9; /* azul mais escuro */
+    background-color: #2980b9; 
 }
 
 /* Seção "Sobre Mim" */
@@ -65,19 +65,19 @@ nav a:hover {
 #sobre {
     text-align: center;
     margin: 2em;
-    background-color: #ffffff; /* branco */
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 2em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #sobre h2 {
-    color: #3498db; /* azul */
+    color: #3498db; 
 }
 
 #sobre p {
-    color: #555555; /* cinza escuro */
-    margin-bottom: 1em; /* Adiciona um espaçamento inferior entre os parágrafos */
+    color: #555555; 
+    margin-bottom: 1em; 
 }
 
 /* Seção "Formacao" */
@@ -85,30 +85,30 @@ nav a:hover {
 #formacao {
     text-align: center;
     margin: 2em;
-    background-color: #ffffff; /* branco */
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 2em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #formacao h2 {
-    color: #3498db; /* azul */
+    color: #3498db; 
 }
 
 #formacao p {
-    color: #555555; /* cinza escuro */
-    margin-bottom: 1em; /* Adiciona um espaçamento inferior entre os parágrafos */
+    color: #555555; /
+    margin-bottom: 1em; 
 }
 
 #certificados {
     display: flex;
-    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
+    flex-wrap: wrap; 
     justify-content: space-around;
     margin-top: 20px;
 }
 
 #certificados a {
-    flex: 0 1 calc(30% - 10px); /* Ajuste a largura da coluna e o espaçamento conforme necessário */
+    flex: 0 1 calc(30% - 10px); 
     margin-bottom: 20px;
     text-align: center;
     text-decoration: none;
@@ -118,18 +118,18 @@ nav a:hover {
     width: 100%;
     height: auto;
     border: 4px solid #ccc;
-    border-radius: 10px; /* Adiciona cantos arredondados nas miniaturas */
-    transition: transform 0.3s ease-in-out; /* Adiciona um efeito de transição suave */
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out;
 }
 
 #certificados a:hover img {
-    transform: scale(1.1); /* Adiciona um efeito de escala ao passar o mouse sobre as miniaturas */
+    transform: scale(1.1); 
 }
 
-/* Regras de mídia para ajustar o tamanho das imagens em telas menores */
+/* Ajuste para celulares */
 @media screen and (max-width: 600px) {
     #certificados a {
-        flex: 0 1 calc(100% - 20px); /* Em telas menores, faz as imagens ocuparem a largura total da tela */
+        flex: 0 1 calc(100% - 20px); 
     }
 }
 
@@ -138,25 +138,25 @@ nav a:hover {
 #portfolio {
     text-align: center;
     margin: 2em;
-    background-color: #ffffff; /* branco */
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 2em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #portfolio h2 {
-    color: #3498db; /* azul */
+    color: #3498db; 
 }
 
 #portfolio p {
-    color: #555555; /* cinza escuro */
-    margin-bottom: 1em; /* Adiciona um espaçamento inferior entre os parágrafos */
+    color: #555555;
+    margin-bottom: 1em;
 }
 
-/* Regras de mídia para ajustar o tamanho dos vídeos em telas menores */
+/*Ajuste para celulares*/
 @media screen and (max-width: 600px) {
     #portfolio iframe {
-        width: 100%; /* Define a largura do vídeo para ocupar toda a largura da tela em telas menores */
+        width: 100%;
     }
 }
 
@@ -165,7 +165,7 @@ nav a:hover {
 #contato {
     text-align: center;
     margin: 2em;
-    background-color: #ffffff; /* branco */
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 2em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -176,8 +176,8 @@ nav a:hover {
 }
 
 #contato p {
-    color: #555555; /* cinza escuro */
-    margin-bottom: 1em; /* Adiciona um espaçamento inferior entre os parágrafos */
+    color: #555555; 
+    margin-bottom: 1em; 
 }
 
 /* Formulário de Contato */
@@ -190,7 +190,7 @@ nav a:hover {
 
 #contato label {
     margin-bottom: 0.5em;
-    color: #3498db; /* azul */
+    color: #3498db; 
 }
 
 #contato input,
@@ -201,8 +201,8 @@ nav a:hover {
 }
 
 #contato input[type="submit"] {
-    background-color: #3498db; /* azul claro */
-    color: #ffffff; /* branco */
+    background-color: #3498db; 
+    color: #ffffff;
     border: none;
     padding: 0.5em 1em;
     border-radius: 8px;
@@ -211,7 +211,7 @@ nav a:hover {
 }
 
 #contato input[type="submit"]:hover {
-    background-color: #2980b9; /* azul mais escuro */
+    background-color: #2980b9;
 }
 
 /* Links de Contato */
@@ -229,25 +229,25 @@ nav a:hover {
 }
 
 #links-contato img {
-    width: 50px; /* Ajuste conforme necessário */
-    height: 50px; /* Ajuste conforme necessário */
-    border-radius: 50%; /* Torna os cantos completamente arredondados (formato circular) */
-    transition: transform 0.3s ease-in-out; /* Adiciona um efeito de transição suave */
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease-in-out; 
 }
 
 #links-contato a:hover img {
-    transform: scale(1.2); /* Adiciona um efeito de escala ao passar o mouse sobre os ícones */
+    transform: scale(1.2); 
 }
 
 /* Rodapé */
 
 footer {
-    display: none; /* Adiciona esta linha para ocultar o rodapé */
+    display: none; 
 }
 
-/* Estilo para cantos arredondados na foto de perfil */
+
 .foto-perfil {
-    border-radius: 50%; /* 50% para tornar os cantos completamente arredondados (formato circular) */
-    width: 150px; /* Ajuste conforme necessário */
-    height: 150px; /* Ajuste conforme necessário */
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px;
 }
