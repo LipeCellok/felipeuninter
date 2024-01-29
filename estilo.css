@@ -48,7 +48,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #3498db; /
+    color: #3498db;
     font-weight: bold;
     padding: 0.5em 1em;
     border-radius: 8px;
@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 #formacao p {
-    color: #555555; /
+    color: #555555;
     margin-bottom: 1em; 
 }
 
