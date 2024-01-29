@@ -214,18 +214,35 @@ nav a:hover {
     background-color: #2980b9; /* azul mais escuro */
 }
 
+/* Links de Contato */
+
+#links-contato {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#links-contato a {
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#links-contato img {
+    width: 50px; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Torna os cantos completamente arredondados (formato circular) */
+    transition: transform 0.3s ease-in-out; /* Adiciona um efeito de transição suave */
+}
+
+#links-contato a:hover img {
+    transform: scale(1.2); /* Adiciona um efeito de escala ao passar o mouse sobre os ícones */
+}
+
 /* Rodapé */
 
 footer {
-    background-color: #3498db; /* azul claro */
-    color: #ffffff; /* branco */
-    text-align: center;
-    padding: 1em;
-    width: 100%;
-}
-
-footer h1 {
-    margin: 0; /* Remover margem padrão do h1 */
+    display: none; /* Adiciona esta linha para ocultar o rodapé */
 }
 
 /* Estilo para cantos arredondados na foto de perfil */
